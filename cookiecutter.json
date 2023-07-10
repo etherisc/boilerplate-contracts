@@ -1,0 +1,9 @@
+{
+    "project_name": "GIF contracts boilterplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "organisation": "Etherisc",
+    "organisation_slug": "{{ cookiecutter.organisation.lower().replace(' ', '_') }}",
+    "_copy_without_render": [
+        ".github/workflows/*.yml"
+    ]
+}

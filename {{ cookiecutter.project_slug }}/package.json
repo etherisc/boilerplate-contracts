@@ -1,0 +1,28 @@
+{
+  "name": "@{{ cookiecutter.organisation_slug }}/{{ cookiecutter.project_slug }}",
+  "version": "0.0.1",
+  "description": "Smart contracts for gif-based products",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{ cookiecutter.organisation_slug }}/{{ cookiecutter.project_slug }}.git"
+  },
+  "files": [
+    "contracts/**/*sol",
+    "build/**/*"
+  ],
+  "keywords": [
+    "gif",
+    "blockchain",
+    "ethereum",
+    "solidity"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://www.{{ cookiecutter.organisation_slug }}.com",
+  "bugs": {
+    "url": "https://github.com/{{ cookiecutter.organisation_slug }}/{{ cookiecutter.project_slug }}/issues"
+  },
+  "dependencies": {
+    "@etherisc/gif-interface": "2.0.0-a8c9822",
+    "@openzeppelin/contracts": "4.7.3"
+  }
+}
