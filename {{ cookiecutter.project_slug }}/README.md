@@ -2,7 +2,7 @@
 
 Welcome to your new project!
 
-The project is based on the GIF sandbox. Please see https://docs.etherisc.com/sandbox/ for more information.
+The project is based on the GIF sandbox. Please see https://docs.etherisc.com/sandbox/ for more information on the development environment, the smart contracts and their usage.
 
 ## Sample contracts
 
